@@ -6,7 +6,9 @@ import numpy as np
 class ARC_game:
     """
     A wrapper to make ARC-AGI-3 environments compatible with Gymnasium-like interfaces.
+    See ARC-AGI library for details
     """
+
 
     def __init__(self, game_id="ls20", render_mode=None):
         self.arc = arc_agi.Arcade()
