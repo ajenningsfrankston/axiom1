@@ -50,7 +50,7 @@ class ExperimentConfig:
     max_steps_tracked_unused: int = 10
     prune_every: int = 500
     use_unused_counter: bool = True
-    project: str = "axiom"
+    project: str = "axiom1"
     precision_type: str = "float32"
     layer_for_dynamics: int = 0  # which layer to use for dynamics
     warmup_smm: bool = False  # warmup SMM
@@ -246,9 +246,9 @@ def create_smm_configs(args):
 
 
 def get_defaults(parser):
-    parser.add_argument("--name", type=str, default="axiom")
+    parser.add_argument("--name", type=str, default="axiom1")
     parser.add_argument("--uid", type=str, default=None)
-    parser.add_argument("--group", type=str, default="axiom")
+    parser.add_argument("--group", type=str, default="axiom1")
     parser.add_argument("--seed", type=int, default=0)
     parser.add_argument("--game", type=str, default="Explode")
     parser.add_argument("--num_steps", type=int, default=10000)
