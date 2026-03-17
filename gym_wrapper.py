@@ -3,7 +3,7 @@ from arcengine import GameAction
 import numpy as np
 
 
-class ARCAGIGymnasiumWrapper:
+class ARC_game:
     """
     A wrapper to make ARC-AGI-3 environments compatible with Gymnasium-like interfaces.
     """
