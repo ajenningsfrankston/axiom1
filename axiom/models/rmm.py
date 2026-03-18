@@ -84,7 +84,8 @@ class RMM(NamedTuple):
     model: HybridMixture
     used_mask: Array
     dirty_mask: Array
-    max_switches: int = eqx.static_field()
+    max_switches: int = eqx.field(static=True)
+
 
 
 def predict(
