@@ -5,7 +5,7 @@ import os
 import random
 from typing import Optional, List, Tuple
 from ..agents import Agent
-from ..structs import FrameData, GameAction, GameState
+from arcengine import FrameData, GameAction, GameState
 
 
 class CustomAgent(Agent):
